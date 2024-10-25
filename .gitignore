@@ -38,3 +38,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# design files
+*.xd
+*.sketch
+*.fig
+
+#data
+data.json
