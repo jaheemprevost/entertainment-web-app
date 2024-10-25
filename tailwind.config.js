@@ -6,6 +6,18 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontSize: {
+      'body-small': '0.813rem',
+      'body-medium': '0.938rem',
+      'heading-small': '1.125rem',
+      'heading-medium': '1.5rem',
+      'heading-large': '2rem',
+    },
+    screens: {
+      sm: '375px',
+      md: '768px',
+      lg: '1440px',
+    },
     extend: {
       colors: {
         primary_red: '#FC4747',
